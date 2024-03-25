@@ -1,0 +1,75 @@
+.btn-primary {
+    color: #212529;
+    background-color: orange;
+    border-color: orange
+}
+
+.btn-primary:hover {
+    color: #212529;
+    background-color: orange;
+    border-color: orange
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 .2rem orange
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #212529;
+    background-color: orange;
+    border-color: orange
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+    color: #212529;
+    background-color: orange;
+    border-color: orange
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem orange
+}
+
+.btn-outline-primary {
+    color: orange;
+    background-color: transparent;
+    background-image: none;
+    border-color: orange
+}
+
+.btn-outline-primary:hover {
+    color: #222;
+    background-color: orange;
+    border-color: orange
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+    box-shadow: 0 0 0 .2rem orange
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+    color: orange;
+    background-color: transparent
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show>.btn-outline-primary.dropdown-toggle {
+    color: #212529;
+    background-color: orange;
+    border-color: orange
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem orange
+}
